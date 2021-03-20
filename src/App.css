@@ -1,0 +1,150 @@
+.All {
+  border-radius: 28px;
+  display: inline-block;
+  cursor: pointer;
+  color: #292929;
+  font-family: Arial;
+  font-weight: lighter;
+  font-size: 17px;
+  padding: 16px 31px;
+  text-decoration: none;
+  background-image: linear-gradient(to bottom right, #dcdcdc, #e8f4f5);
+  -moz-box-shadow: inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow: inset 0 0 10px #000000;
+}
+
+.dataa {
+  border-radius: 14px;
+  display: inline-block;
+  color: #292929;
+  font-family: Arial;
+  font-weight: lighter;
+  font-size: 17px;
+  padding: 16px 31px;
+  text-decoration: none;
+  background-image: linear-gradient(to bottom right, #dcdcdc, #e8f4f5);
+}
+
+.dataWydania {
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #292929;
+  font-family: Arial;
+  font-weight: lighter;
+  font-size: 17px;
+  padding: 16px 31px;
+  text-decoration: none;
+  background-image: linear-gradient(to bottom right, #dcdcdc, #e8f4f5);
+}
+
+body {
+  background-color: black;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+
+Button {
+  /* background-color:#44c767; */
+  border-radius: 28px;
+  border: 1px solid #18ab29;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 17px;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+  margin-top: 40px;
+  background-image: linear-gradient(to bottom right, #44c767, #008022);
+  margin: 5px;
+}
+Button:hover {
+  background-image: linear-gradient(to bottom right, #00c3ff, #008bb6);
+  /* background-color:#00c3ff; */
+}
+
+/*.Przyciski {*/
+/*  Button {*/
+/*    !* background-color:#44c767; *!*/
+/*    border-radius:28px;*/
+/*    border:1px solid #18ab29;*/
+/*    display:inline-block;*/
+/*    cursor:pointer;*/
+/*    color:#ffffff;*/
+/*    font-family:Arial;*/
+/*    font-weight: bold;*/
+/*    font-size:17px;*/
+/*    padding:16px 31px;*/
+/*    text-decoration:none;*/
+/*    text-shadow:0px 1px 0px #2f6627;*/
+/*    margin-top: 40px;*/
+/*    background-image: linear-gradient(to bottom right,#44c767,#008022);*/
+/*    margin: 5px;*/
+/*  }*/
+/*  Button:hover {*/
+/*    background-image: linear-gradient(to bottom right,#00c3ff,#008bb6);*/
+/*    !* background-color:#00c3ff; *!*/
+
+/*}*/
+/*}*/
+
+/* .AppBar:visited{text-decoration: 'none'; color: 'black'}
+.AppBar:link{text-decoration: 'none'; color: 'black'} */
+
+.App {
+  position: absolute;
+  text-align: center;
+  background-color: #000000;
+  background-image: linear-gradient(to bottom, rgb(116, 116, 116), black);
+  -moz-box-shadow: inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow: inset 0 0 10px #000000;
+  margin-top: 0%;
+  margin-left: 0%;
+  padding-top: 0%;
+  padding-left: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
